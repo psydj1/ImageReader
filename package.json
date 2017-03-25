@@ -1,0 +1,15 @@
+{
+  "name": "photoreader",
+  "version": "1.0.0",
+  "description": "Reader jpeg file's xmp metadata information",
+  "main": "app.js",
+  "dependencies": {
+    "xmp-reader": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel J",
+  "license": "ISC"
+}
