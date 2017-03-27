@@ -4,11 +4,13 @@
   "description": "Reader jpeg file's xmp metadata information",
   "main": "app.js",
   "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
     "xmp-reader": "^0.0.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Daniel J",
   "license": "ISC"
